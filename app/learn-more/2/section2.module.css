@@ -1,0 +1,91 @@
+.section2 {
+  text-align: center;
+}
+.image {
+  cursor: pointer;
+}
+.updateTitle {
+  padding-top: 124px;
+  padding-bottom: 48px;
+  position: relative;
+}
+.updateTitle p {
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 32px;
+  color: var(--white);
+  padding-top: 10px;
+}
+.title {
+  display: flex;
+  justify-content: center;
+}
+.title h3 {
+  font-size: 40px !important;
+  line-height: 50px !important;
+}
+
+.decorator1 {
+  position: absolute;
+  top: 24px;
+  left: 0;
+}
+.itemTitle {
+  margin-top: 18px;
+  margin-bottom: 50px;
+}
+.itemTitle h4 {
+  color: #fb1;
+  font-size: 26px;
+  font-weight: bold;
+  line-height: 42px;
+  text-transform: none;
+  text-align: center;
+}
+.itemContent {
+  position: relative;
+}
+.itemContent::before {
+  content: "";
+  top: 66%;
+  left: 37%;
+  transform: translateX(-50%) translateY(-50%);
+  width: 106%;
+  height: 105%;
+  position: absolute;
+  background: #37285a;
+  filter: blur(200px);
+}
+
+.itemContent p {
+  font-size: 18px;
+  font-weight: 400;
+  opacity: 0.7;
+  line-height: 36px;
+  margin-bottom: 24px;
+  text-align: center;
+  color: var(--white);
+}
+.itemContent p:first-child {
+  text-align: 32px;
+}
+.itemContent p span {
+  font-weight: 600;
+}
+
+.updateHowList {
+  display: flex;
+  padding: 0 91px;
+  position: relative;
+}
+.howItem {
+  width: 33.333%;
+  height: auto;
+  padding: 0 26px;
+}
+.howItem img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  padding: 0 11px;
+}

@@ -1,0 +1,67 @@
+.cards {
+  background: #001323;
+  overflow: hidden;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 0;
+  width: 100%;
+  position: relative;
+  cursor: pointer;
+}
+.cards:hover {
+  transform: scale(1.1);
+  transition: transform 200ms ease-in-out;
+}
+.gameTitle {
+  color: #fff;
+  font-weight: 700;
+  font-size: 16px;
+  text-transform: none;
+  padding: 16px;
+  border-bottom: none;
+}
+.description {
+  padding: 0 15px 15px 15px;
+}
+.amountMobile {
+  font-size: 12px;
+  line-height: 24px;
+  color: var(--red);
+  font-weight: 700;
+}
+.image {
+  object-fit: cover;
+  height: 265px;
+  width: 100%;
+}
+.badge {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: var(--red);
+  border-bottom-right-radius: 20px;
+  padding: 4px 10px;
+  color: #fff;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.badge .topGame {
+  width: 16px;
+  height: 100%;
+}
+
+@media (max-width: 1025px) {
+  .cards {
+    width: 100%;
+  }
+  .image {
+    object-fit: cover;
+    width: 100%;
+    height: auto;
+  }
+}

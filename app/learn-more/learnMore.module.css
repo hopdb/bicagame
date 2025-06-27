@@ -1,0 +1,10 @@
+.learnMore {
+  background: var(--purple);
+  justify-content: space-between;
+  /* padding: 0 88px; */
+  position: relative;
+}
+.learnMore > div {
+  align-items: center;
+  /* padding-top: 120px; */
+}

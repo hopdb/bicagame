@@ -1,0 +1,52 @@
+.rank {
+  padding-top: 120px;
+  background: var(--back);
+  padding-right: 40px !important;
+  padding-left: 40px !important;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+}
+.titles {
+  font-weight: 800;
+  font-size: 38px;
+  line-height: 46px;
+  background: linear-gradient(
+    90deg,
+    #ee2b78 -11.65%,
+    #ff542f 99.38%,
+    #fff200 142.9%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-top: 27px;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+}
+.description {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 25px;
+  color: #ffffff;
+  margin-bottom: 60px;
+}
+.content {
+  text-align: center;
+  min-height: 60vh;
+}
+.titleCompetition {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  background: linear-gradient(
+    90deg,
+    #ee2b78 -11.65%,
+    #ff542f 99.38%,
+    #fff200 142.9%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-top: 27px;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+}

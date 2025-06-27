@@ -1,0 +1,122 @@
+.newGame {
+  background: var(--back);
+  padding-bottom: 50px;
+}
+.titles {
+  padding-top: 90px;
+}
+.readMore {
+  display: inline-block;
+  color: #fff;
+  opacity: 0.5;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 700;
+  padding-top: 82;
+  padding-bottom: 30;
+}
+.heading {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  align-content: center;
+}
+.popularGames {
+  background: url("/image/background_new.png.png") no-repeat;
+  background-size: cover;
+  height: 550px;
+}
+.slideItem {
+  padding: 17px 15px;
+  box-sizing: border-box;
+}
+
+.slider :global(.slick-disabled) {
+  display: none !important;
+}
+.slider :global(.slick-prev::before) {
+  content: "";
+  width: 0;
+  height: 0;
+  border-top: 8px solid transparent;
+  border-bottom: 8px solid transparent;
+  border-right: 12px solid var(--white);
+  margin: 22px;
+  display: block;
+}
+.slider :global(.slick-next::before) {
+  content: "";
+  width: 0;
+  height: 0;
+  border-top: 8px solid transparent;
+  border-bottom: 8px solid transparent;
+  border-left: 12px solid var(--white);
+  margin: 25px;
+  display: block;
+}
+
+.slider :global(.slick-prev) {
+  background: var(--red);
+  height: 64px !important;
+  width: 64px !important;
+  z-index: 1;
+  border-radius: 50%;
+}
+.slider :global(.slick-next) {
+  background: var(--red);
+  height: 64px !important;
+  width: 64px !important;
+  z-index: 1;
+  border-radius: 50%;
+}
+.slider {
+  position: relative;
+}
+.slider :global(.slick-dots) {
+  position: absolute;
+  top: -30px;
+  right: 0;
+  display: flex !important;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+.slider :global(.slick-dots li) {
+  margin: 0 4px;
+}
+
+.slider :global(.slick-dots) {
+  position: absolute;
+  top: -38px;
+  right: 0;
+  display: flex !important;
+  justify-content: flex-end;
+  width: 100%;
+  gap: 8px;
+}
+
+.slider :global(.slick-dots li button:before) {
+  content: "";
+  display: block;
+  width: 24px;
+  height: 2px;
+  background: var(--white);
+  opacity: 1;
+  transition: background 0.3s ease;
+}
+
+.slider :global(.slick-dots li.slick-active button:before) {
+  background: var(--white);
+  opacity: 0.2;
+}
+
+.slider :global(.slick-track) {
+  margin: 0;
+}
+
+@media (max-width: 1025px) {
+  .slider :global(.slick-next),
+  .slider :global(.slick-prev) {
+    display: none !important;
+  }
+}

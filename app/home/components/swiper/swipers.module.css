@@ -1,0 +1,55 @@
+.swipers {
+  padding-top: 120px;
+  padding-bottom: 25px;
+}
+.items {
+  width: 100%;
+  height: 100%;
+  background: var(--back);
+  overflow: hidden;
+}
+.items img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  border-radius: 20px;
+}
+.swipers :global(.slick-list) {
+  padding-bottom: 52px !important;
+}
+.swipers ul {
+  background: var(--back);
+  padding: 25px 0;
+}
+.swipers button::before {
+  display: none;
+}
+.swipers li {
+  width: 12px !important;
+  height: 12px !important;
+  border-radius: 50%;
+  margin-bottom: 10px !important;
+  padding: 0 15px;
+}
+.swipers :global(.slick-dots li button) {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: transparent;
+  transition: all 0.3s ease;
+  border: 1px solid var(--white) !important;
+}
+
+.swipers :global(.slick-dots li.slick-active button) {
+  background: var(--red);
+  border: 1px solid var(--red) !important;
+}
+
+.swipers :global(.slick-dots li button:before) {
+  display: none;
+}
+@media (max-width: 1025px) {
+  .swipers {
+    padding-top: 69px;
+  }
+}

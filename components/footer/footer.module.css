@@ -1,0 +1,46 @@
+.footer {
+  background: var(--back);
+  color: var(--white);
+  padding-bottom: 30px;
+}
+.footer .logo {
+  width: 190px;
+  height: 90px;
+}
+.footer .termLink {
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+}
+.footer .termLinkInfo {
+  font-size: 12px;
+  line-height: 18px;
+  font-family: "Montserrat";
+}
+.footer .termLink a {
+  font-size: 13px;
+  margin-left: 30px;
+  line-height: 35px;
+  font-weight: 700;
+  text-transform: none;
+  font-family: "Montserrat";
+}
+.footer .termLink a:hover {
+  color: var(--red);
+}
+@media (max-width: 768px) {
+  .footer > div {
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+  .footer {
+    display: flex;
+    flex-direction: column;
+  }
+  .footer .termLink {
+    text-align: left;
+  }
+  .footer .termLink a {
+    margin: 0 !important;
+  }
+}

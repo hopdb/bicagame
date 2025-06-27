@@ -1,0 +1,97 @@
+.section3 {
+  position: relative;
+}
+.section3::before {
+  content: "";
+  top: 20%;
+  left: 0;
+  transform: translateX(0%) translateY(0%);
+  width: 14%;
+  height: 85%;
+  position: absolute;
+  background: #26192f;
+  filter: blur(106px);
+  z-index: 1;
+}
+.updateTitle {
+  padding-top: 64px;
+  padding-bottom: 48px;
+  position: relative;
+}
+.updateTitle p {
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 32px;
+  color: var(--white);
+  padding-top: 10px;
+  text-align: center;
+}
+.decorator1 {
+  position: absolute;
+  top: 4%;
+  right: 0;
+}
+.decorator2 {
+  position: absolute;
+  top: 18%;
+  left: 0;
+}
+.title {
+  display: flex;
+  justify-content: center;
+}
+.title h3 {
+  font-size: 40px !important;
+  line-height: 50px !important;
+}
+.itemTitle {
+  margin-top: 32px;
+}
+
+.itemTitle h4 {
+  font-size: 48px;
+  line-height: 51px;
+  font-weight: bold;
+  color: var(--white);
+  text-align: center;
+  margin-bottom: 24px;
+}
+.itemContent p {
+  opacity: 0.49;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 36px;
+  margin-bottom: 24px;
+  text-align: center;
+  color: var(--white);
+  margin-bottom: 24px;
+}
+.updateHowList {
+  display: flex;
+  padding: 0 91px;
+  position: relative;
+}
+.howItem {
+  width: 33.333%;
+  height: auto;
+  padding: 0 26px;
+}
+.titleList {
+  color: #fb1;
+  font-size: 26px;
+  font-weight: bold;
+  line-height: 42px;
+  text-transform: none;
+  text-align: center;
+  padding: 40px 0 50px 0;
+}
+.btn {
+  text-align: center;
+}
+.btn button {
+  padding: 37px 45px !important;
+  font-size: 24px;
+  color: #000 !important;
+  font-weight: 700 !important;
+  margin: 36px auto 72px;
+}
