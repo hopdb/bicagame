@@ -2,6 +2,8 @@
   background: var(--back);
   padding: 0 40px;
   margin: auto;
+  z-index: 100;
+  position: relative;
 }
 .topSearch {
   position: fixed;
